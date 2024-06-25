@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 :root {
   --dark-blue: hsl(218, 23%, 16%);
@@ -24,11 +24,6 @@ body {
   height: 100vh;
   padding: 17px;
   font-family: "Manrope", sans-serif;
-  font-weight: 800;
-}
-
-h1 {
-  color: white;
 }
 
 p,
@@ -38,10 +33,13 @@ h3 {
 
 p {
   color: var(--neon-green);
+  letter-spacing: 3px;
+  font-weight: 500;
 }
 
 h3 {
   color: var(--light-cyan);
+  font-weight: 800;
 }
 
 .advice {

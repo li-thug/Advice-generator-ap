@@ -61,7 +61,7 @@ h3 {
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  background-color: hsl(150, 100%, 66%);
+  background-color: var(--neon-green);
   cursor: pointer;
   transition: all linear 200ms;
 }
